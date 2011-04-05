@@ -1,0 +1,37 @@
+Member:
+   member1:
+      FirstName: Joe
+      Surname: Bloggs
+      Email: joe@noemail.com
+      
+Product:
+   prod1:
+      Title: T-Shirt with a lovely flower on it (SPECIAL)
+      MenuTitle: T-Shirt with a flower
+      Content: <p>This is a really nice t-shirt.</p>
+   prod2:
+      Title: Yet another awesome product
+      MenuTitle: Another awesome product
+      Content: <p>This is the best product ever.</p>
+   prod3:
+      Title: A basic product without any variations to begin with
+      MenuTitle: A basic product
+      Content: <p>This is a basic product.</p>
+      
+ProductVariation:
+   variation1:
+      Product: =>Product.prod1
+      Price: 25.50
+      Quantity: 5
+   variation2:
+      Product: =>Product.prod1
+      Price: 27.50
+      Quantity: 2
+   variation3:
+      Product: =>Product.prod2
+      Price: 32.50
+      Quantity: 1
+   variation4:
+      Product: =>Product.prod2
+      Price: 27
+      Quantity: 4
